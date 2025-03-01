@@ -1,0 +1,113 @@
+*{
+    text-decoration: overline;
+}
+
+input[type=text]{
+    color: red;
+}
+input[type=email]{
+    color: blue;
+}
+
+input[value]{
+    font-style: italic;
+}
+
+h1 {
+    font-size: 58px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: oblique;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+    text-shadow: 1px 3px 10px #000000;
+    text-indent: 5px;
+    word-spacing: 24px;
+    letter-spacing: 10px;
+    word-wrap: break-word;
+
+    border-width: 3px;
+    border-color: rgba(150, 0, 255, 0.5);
+    border-style: dashed;
+    border: 5px solid red;
+    border-radius: 14%;
+    border-color: blue;
+    border-bottom-style:dashed;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 50%;
+    border-right-color:red ;
+}
+
+.bg{
+    border: 1px solid #000000;
+    margin: 16px;
+    margin: 16px 25px;
+    margin: 16px 20px 24px 28px;
+    margin-block: 50px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-block-start: 60px;
+    margin-block-end: 40px;
+    margin-inline: 20px;
+    margin-left: 15px;
+    margin-right: 25px;
+    margin-inline-start: 15px;
+    margin-inline-end: 25px;
+    padding: 32px;
+    width: 40vw;
+    height: 40vh;
+    background-color: #fff00f;
+    background-image: url('../recursos/fondo.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:20px 25px ;
+    box-shadow: 1px -5px 6px #000000;
+}
+
+
+
+.boton{
+    width: 150px;
+    height: 80px;
+    background-color: blue;
+    color: #fff;
+    transition-property: background-color,color,width;
+    transition-duration:2s,3s,900ms;
+    transition-timing-function: linear;
+    transition-delay:1s ;
+}
+
+.boton:hover{
+    width: 550px;
+    background-color: #fff;
+    color: #000000;
+}
+
+.c1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #00f;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    animation-name: animacion1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: s;
+    animation-direction: alternate;
+}
+
+@keyframes animacion1{
+    from{
+        left: 0px;
+        background-color: #00f;
+    }
+    to{
+        left: 100vw;
+        background-color: red;
+    }
+}

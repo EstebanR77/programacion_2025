@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Estudiante</title>
+</head>
+<body>
+    <h1>Estudiante</h1>
+    <form action="datosEstudiante.php" method="post">
+        <div>
+            <label for="">nombre</label>
+            <input name="nombre" type="text" maxlength="15" required>
+        </div>
+        <div>
+            <label for="">apellido</label>
+            <input name="apellido" type="text" maxlength="15" required>
+        </div>
+        <div>
+            <label for="">Email</label>
+            <input name="correo" type="email" maxlength="50">
+        </div>
+        <div>
+            <label for="">Edad</label>
+            <input name="Edad" type="number" required>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
